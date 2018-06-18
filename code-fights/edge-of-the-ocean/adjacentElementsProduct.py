@@ -5,8 +5,3 @@ def adjacentElementsProduct(inputArray):
         if product > index:
             index = product
     return index
-
-
-
-if __name__ == '__main__':
-    print adjacentElementsProduct([-23, 4, -3, 8, -12])
