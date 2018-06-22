@@ -7,6 +7,3 @@ def commonCharacterCount(s1, s2):
                 s2 = s2[:j] + "" + s2[j + 1:]
                 break
     return count
-
-if __name__ == '__main__':
-    print(commonCharacterCount("aabcc", "adcaa"))
