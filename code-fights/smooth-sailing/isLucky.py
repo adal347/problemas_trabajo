@@ -11,6 +11,3 @@ def isLucky(n):
     if firstHalf == secondHalf:
         return True
     return False
-
-if __name__ == '__main__':
-    print(isLucky(1230))
