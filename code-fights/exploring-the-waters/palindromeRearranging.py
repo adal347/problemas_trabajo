@@ -11,25 +11,3 @@ def palindromeRearranging(inputString):
         if odd > 1:
             return False
     return True
-
-if __name__ == '__main__':
-    print(ord("a"))
-    print(ord("b"))
-    print(ord("c"))
-    print(ord("d"))
-    print(ord("e"))
-    print(ord("f"))
-    print(ord("g"))
-    print(ord("h"))
-    print(ord("i"))
-    print(ord("j"))
-    print(ord("k"))
-    print(ord("p"))
-    print(ord("s"))
-    print(ord("t"))
-    print(ord("u"))
-    print(ord("v"))
-    print(ord("w"))
-    print(ord("x"))
-    print(ord("y"))
-    print(ord("z"))
