@@ -10,7 +10,7 @@ def digitsProduct(product):
         for divisor in range(9, 1, -1):
             if product % divisor == 0:
                 product /= divisor
-                n.append(d)
+                n.append(divisor)
                 break
         else:
             return -1
