@@ -1,5 +1,8 @@
 """
-You would like to write a function that takes integer numbers x, y, L and R as parameters and returns True if xy lies in the interval (L, R] and False otherwise. You're considering several ways to write a conditional statement inside this function:
+You would like to write a function that takes integer numbers x, y,
+ L and R as parameters and returns True if xy lies in the interval
+ (L, R] and False otherwise. You're considering several ways
+ to write a conditional statement inside this function:
 
 if L < x ** y <= R:
 if x ** y > L and x ** y <= R:
