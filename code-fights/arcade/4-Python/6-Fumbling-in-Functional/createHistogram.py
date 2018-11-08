@@ -1,2 +1,2 @@
-def createHistogram(ch, assignments):
-    return [ch*x for x in assignments]
+def createHistogram(c, assignments):
+    return [c*x for x in assignments]
