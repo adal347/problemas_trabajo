@@ -3,7 +3,7 @@
     "version": "1.0"
   },
   "links": {
-    "self": "http://prd23api01.itesm.mx:84/CFDI/Conceptos?Institucion=TMTY&tipo=Colegiatura&Id=A00160024&moneda=MXN&campus=GA&sedena=False&term=201822&entorno=Task&ejecucion=86&registro=1"
+    "self": "http://localhost:54066/CFDI/Conceptos?Institucion=TMTY&tipo=Colegiatura&Id=A00160024&moneda=MXN&campus=GA&sedena=False&term=201822&entorno=Task&ejecucion=86&registro=1"
   },
   "data": {
     "Comprobante": {
@@ -52,7 +52,7 @@
             "descuento": "0.00",
             "saldoControl": "11659",
             "usoCFDI": "D10",
-            "campus": "EGAP MONTERREY",
+            "campus": "Debe crear el elemento solicitado",
             "claveCampus": "GA",
             "periodoAcademico": "201822",
             "nivelAcademico": "Maestría",
@@ -97,7 +97,7 @@
             "descuento": "0.00",
             "saldoControl": "0.2",
             "usoCFDI": "D10",
-            "campus": "EGAP MONTERREY",
+            "campus": "Debe crear el elemento solicitado",
             "claveCampus": "GA",
             "periodoAcademico": "201822",
             "nivelAcademico": "Maestría",
