@@ -179,19 +179,9 @@ BEGIN
 					WITH (automatico nvarchar(20)) as x
 					IF @automatico='true'
 					BEGIN
-						--SET @folio=(SELECT ISNULL(MAX([001FOLIO]),0)
-						--FROM CFDEmision33_cons.DBO.T001_PRINCIPAL WITH(NOLOCK)
-						--INNER JOIN CFDEmision33_cons.DBO.T002_Emisor WITH(NOLOCK) ON [001facturaid] = [002facturaid]
-						--WHERE [002rfc]=(@rfc_Emisor)
-						--AND [001SERIE] =(@serie));
-
 						SELECT  @folio=ISNULL(MAX([001FOLIO]), 0) FROM CFDEmision33_cons.DBO.Folios33
 						WHERE [002RFC]=@rfc_Emisor AND [001SERIE]=@serie
-
 						set @folio = @folio + 1
-
-
-
 						IF @folio = '1'
 						BEGIN
 							SET @folio32=(SELECT ISNULL(MAX(Folio),0)+1
